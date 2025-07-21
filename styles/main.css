@@ -1,0 +1,46 @@
+.video-container {
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.card {
+    width: 300px;
+}
+
+.tambnail-top {
+    position:relative;
+    width: 300px;
+}
+
+.tambnail-photo {
+    width: 300px;
+}
+.tambnail-bottom{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.text {
+    margin-left: 32px ;
+    width: 220px;
+}
+.grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+.counter {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    background-color: black;
+    padding: 3px 10px;
+    font-weight: 500px;
+    border-radius: 2px;
+}
+.profile-video{
+    width: 36px;
+    border-radius: 20px;
+    margin-top: 8px;
+}
